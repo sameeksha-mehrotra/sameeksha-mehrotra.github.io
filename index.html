@@ -100,18 +100,18 @@
 
             <div class="hero-stats" data-aos="fade-up" data-aos-delay="400">
                 <div class="stat-item">
+                    <span class="stat-number" data-count="3">0</span><span class="stat-suffix"></span>
+                    <span class="stat-label">Internships</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
                     <span class="stat-number" data-count="5">0</span><span class="stat-suffix">+</span>
-                    <span class="stat-label">Years Experience</span>
+                    <span class="stat-label">Projects Built</span>
                 </div>
                 <div class="stat-divider"></div>
                 <div class="stat-item">
-                    <span class="stat-number" data-count="20">0</span><span class="stat-suffix">+</span>
-                    <span class="stat-label">Projects Completed</span>
-                </div>
-                <div class="stat-divider"></div>
-                <div class="stat-item">
-                    <span class="stat-number" data-count="10">0</span><span class="stat-suffix">+</span>
-                    <span class="stat-label">ML Models Deployed</span>
+                    <span class="stat-number" data-count="4">0</span><span class="stat-suffix">+</span>
+                    <span class="stat-label">Organizations</span>
                 </div>
             </div>
         </div>
@@ -149,15 +149,15 @@
 
                 <div class="about-text" data-aos="fade-left">
                     <p class="about-intro">
-                        I'm an <strong>AI/ML Engineer</strong> with a passion for creating technology that genuinely improves people's lives. My journey in tech has been driven by curiosity and a desire to solve complex problems with elegant solutions.
+                        I'm a <strong>Computer Science student at UT Austin</strong> passionate about building technology that makes a real impact. My journey in tech started early and has led me through multiple internships at Citibank and involvement in organizations focused on ML and community building.
                     </p>
 
                     <p>
-                        With expertise spanning <strong>deep learning</strong>, <strong>natural language processing</strong>, and <strong>computer vision</strong>, I've had the opportunity to work on projects ranging from intelligent recommendation systems to real-time object detection pipelines.
+                        Currently, I'm exploring <strong>machine learning</strong>, <strong>computer vision</strong>, and <strong>full-stack development</strong> through projects like building brain-computer interfaces with Longhorn Neurotech and developing web applications for student organizations.
                     </p>
 
                     <p>
-                        When I'm not training models or writing code, you'll find me exploring the latest research papers, contributing to open-source projects, or mentoring aspiring engineers in the AI community.
+                        Beyond coding, I'm a strong advocate for women in tech through Girls Who Code, and I love combining creativity with technology - whether it's game development, digital content creation, or building tools that help others.
                     </p>
 
                     <div class="about-highlights">
@@ -165,7 +165,7 @@
                             <i class="fas fa-graduation-cap"></i>
                             <div>
                                 <strong>Education</strong>
-                                <span>B.S. Computer Science, UT Austin</span>
+                                <span>B.S. Computer Science, UT Austin (2028)</span>
                             </div>
                         </div>
                         <div class="highlight-item">
@@ -179,7 +179,7 @@
                             <i class="fas fa-heart"></i>
                             <div>
                                 <strong>Interests</strong>
-                                <span>AI Ethics, Research, Open Source</span>
+                                <span>ML, Web Dev, Women in Tech</span>
                             </div>
                         </div>
                     </div>
@@ -206,7 +206,7 @@
                 <button class="filter-btn active" data-filter="all">All Projects</button>
                 <button class="filter-btn" data-filter="ai">AI/ML</button>
                 <button class="filter-btn" data-filter="web">Web Dev</button>
-                <button class="filter-btn" data-filter="research">Research</button>
+                <button class="filter-btn" data-filter="games">Games</button>
             </div>
 
             <div class="projects-grid">
@@ -214,15 +214,86 @@
                 <article class="project-card" data-category="ai" data-aos="fade-up">
                     <div class="project-image">
                         <div class="project-placeholder">
-                            <i class="fas fa-robot"></i>
+                            <i class="fas fa-car-crash"></i>
                         </div>
                         <div class="project-overlay">
                             <div class="project-links">
-                                <a href="#" class="project-link" title="Live Demo">
+                                <a href="#" class="project-link" title="View Project">
                                     <i class="fas fa-external-link-alt"></i>
                                 </a>
-                                <a href="#" class="project-link" title="View Code">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">scikit-learn</span>
+                            <span class="tag">SHAP</span>
+                        </div>
+                        <h3 class="project-title">Detroit Traffic Crashes Analysis</h3>
+                        <p class="project-description">
+                            Built and evaluated ML models (Decision Tree, SVM, KNN, Logistic Regression) achieving up to 90.7% accuracy for speeding prediction. Used SHAP for feature importance and interpretability.
+                        </p>
+                        <div class="project-metrics">
+                            <div class="metric">
+                                <i class="fas fa-bullseye"></i>
+                                <span>90.7% accuracy</span>
+                            </div>
+                            <div class="metric">
+                                <i class="fas fa-chart-bar"></i>
+                                <span>4 ML models</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card" data-category="web" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/sameeksha-mehrotra/Evil-Hangman" class="project-link" title="View Code">
                                     <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">Data Structures</span>
+                            <span class="tag">Algorithms</span>
+                        </div>
+                        <h3 class="project-title">Evil Hangman Game</h3>
+                        <p class="project-description">
+                            A Java-based game that "cheats" by delaying word selection. Implemented game logic, pattern updates, and difficulty levels by partitioning words into families based on guesses.
+                        </p>
+                        <div class="project-metrics">
+                            <div class="metric">
+                                <i class="fas fa-code"></i>
+                                <span>Java</span>
+                            </div>
+                            <div class="metric">
+                                <i class="fas fa-brain"></i>
+                                <span>AI Logic</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card" data-category="ai" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-wheelchair"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="View Project">
+                                    <i class="fas fa-external-link-alt"></i>
                                 </a>
                             </div>
                         </div>
@@ -230,79 +301,36 @@
                     <div class="project-content">
                         <div class="project-tags">
                             <span class="tag">PyTorch</span>
-                            <span class="tag">Transformers</span>
-                            <span class="tag">NLP</span>
-                        </div>
-                        <h3 class="project-title">Neural Conversational AI</h3>
-                        <p class="project-description">
-                            A state-of-the-art conversational AI system using transformer architecture, capable of context-aware dialogue generation with 95% user satisfaction rate.
-                        </p>
-                        <div class="project-metrics">
-                            <div class="metric">
-                                <i class="fas fa-star"></i>
-                                <span>1.2k stars</span>
-                            </div>
-                            <div class="metric">
-                                <i class="fas fa-code-branch"></i>
-                                <span>234 forks</span>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-
-                <!-- Project 2 -->
-                <article class="project-card" data-category="ai" data-aos="fade-up" data-aos-delay="100">
-                    <div class="project-image">
-                        <div class="project-placeholder">
-                            <i class="fas fa-eye"></i>
-                        </div>
-                        <div class="project-overlay">
-                            <div class="project-links">
-                                <a href="#" class="project-link" title="Live Demo">
-                                    <i class="fas fa-external-link-alt"></i>
-                                </a>
-                                <a href="#" class="project-link" title="View Code">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-tags">
                             <span class="tag">Computer Vision</span>
-                            <span class="tag">TensorFlow</span>
-                            <span class="tag">Edge AI</span>
+                            <span class="tag">RL</span>
                         </div>
-                        <h3 class="project-title">Real-Time Object Detection</h3>
+                        <h3 class="project-title">BCI Wheelchair Navigation</h3>
                         <p class="project-description">
-                            Optimized YOLO-based detection system achieving 60 FPS on edge devices. Deployed in production for autonomous vehicle safety systems.
+                            Building ML-driven brain-computer interface assistive technology using computer vision, reinforcement learning, and object detection for shared-control wheelchair mobility systems.
                         </p>
                         <div class="project-metrics">
                             <div class="metric">
-                                <i class="fas fa-bolt"></i>
-                                <span>60 FPS</span>
+                                <i class="fas fa-robot"></i>
+                                <span>Autonomous Nav</span>
                             </div>
                             <div class="metric">
-                                <i class="fas fa-bullseye"></i>
-                                <span>98.5% mAP</span>
+                                <i class="fas fa-eye"></i>
+                                <span>Object Detection</span>
                             </div>
                         </div>
                     </div>
                 </article>
 
-                <!-- Project 3 -->
-                <article class="project-card" data-category="web" data-aos="fade-up" data-aos-delay="200">
+                <!-- Project 4 -->
+                <article class="project-card" data-category="web" data-aos="fade-up" data-aos-delay="300">
                     <div class="project-image">
                         <div class="project-placeholder">
-                            <i class="fas fa-chart-line"></i>
+                            <i class="fas fa-globe"></i>
                         </div>
                         <div class="project-overlay">
                             <div class="project-links">
-                                <a href="#" class="project-link" title="Live Demo">
+                                <a href="#" class="project-link" title="View Site">
                                     <i class="fas fa-external-link-alt"></i>
-                                </a>
-                                <a href="#" class="project-link" title="View Code">
-                                    <i class="fab fa-github"></i>
                                 </a>
                             </div>
                         </div>
@@ -310,141 +338,58 @@
                     <div class="project-content">
                         <div class="project-tags">
                             <span class="tag">React</span>
-                            <span class="tag">D3.js</span>
-                            <span class="tag">Python</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">APIs</span>
                         </div>
-                        <h3 class="project-title">ML Experiment Dashboard</h3>
+                        <h3 class="project-title">Raas Rodeo Website</h3>
                         <p class="project-description">
-                            Interactive dashboard for tracking ML experiments, visualizing model performance, and managing datasets. Used by 500+ data scientists.
+                            Developed the organization's first-ever website using React, integrating external APIs and deploying via a custom domain to enhance user experience and brand presence.
                         </p>
                         <div class="project-metrics">
+                            <div class="metric">
+                                <i class="fas fa-chart-line"></i>
+                                <span>40% engagement</span>
+                            </div>
                             <div class="metric">
                                 <i class="fas fa-users"></i>
-                                <span>500+ users</span>
-                            </div>
-                            <div class="metric">
-                                <i class="fas fa-database"></i>
-                                <span>10TB data</span>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-
-                <!-- Project 4 -->
-                <article class="project-card" data-category="research" data-aos="fade-up" data-aos-delay="300">
-                    <div class="project-image">
-                        <div class="project-placeholder">
-                            <i class="fas fa-dna"></i>
-                        </div>
-                        <div class="project-overlay">
-                            <div class="project-links">
-                                <a href="#" class="project-link" title="Read Paper">
-                                    <i class="fas fa-file-pdf"></i>
-                                </a>
-                                <a href="#" class="project-link" title="View Code">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-tags">
-                            <span class="tag">Bioinformatics</span>
-                            <span class="tag">GNN</span>
-                            <span class="tag">Research</span>
-                        </div>
-                        <h3 class="project-title">Protein Structure Prediction</h3>
-                        <p class="project-description">
-                            Novel graph neural network approach for protein folding prediction. Published at NeurIPS with significant improvement over baselines.
-                        </p>
-                        <div class="project-metrics">
-                            <div class="metric">
-                                <i class="fas fa-quote-left"></i>
-                                <span>45 citations</span>
-                            </div>
-                            <div class="metric">
-                                <i class="fas fa-award"></i>
-                                <span>Best Paper</span>
+                                <span>25% reach boost</span>
                             </div>
                         </div>
                     </div>
                 </article>
 
                 <!-- Project 5 -->
-                <article class="project-card" data-category="ai" data-aos="fade-up" data-aos-delay="400">
+                <article class="project-card" data-category="games" data-aos="fade-up" data-aos-delay="400">
                     <div class="project-image">
                         <div class="project-placeholder">
-                            <i class="fas fa-music"></i>
+                            <i class="fas fa-car"></i>
                         </div>
                         <div class="project-overlay">
                             <div class="project-links">
-                                <a href="#" class="project-link" title="Live Demo">
+                                <a href="#" class="project-link" title="View Project">
                                     <i class="fas fa-external-link-alt"></i>
-                                </a>
-                                <a href="#" class="project-link" title="View Code">
-                                    <i class="fab fa-github"></i>
                                 </a>
                             </div>
                         </div>
                     </div>
                     <div class="project-content">
                         <div class="project-tags">
-                            <span class="tag">Generative AI</span>
-                            <span class="tag">Audio</span>
-                            <span class="tag">Diffusion</span>
+                            <span class="tag">C++</span>
+                            <span class="tag">Unity</span>
+                            <span class="tag">Blender</span>
                         </div>
-                        <h3 class="project-title">AI Music Composer</h3>
+                        <h3 class="project-title">3D Educational Racing Game</h3>
                         <p class="project-description">
-                            Diffusion-based music generation system that creates original compositions in various genres. Features real-time style transfer capabilities.
+                            Collaborated via GitHub to model 3D cars in Blender and develop an educational racing mobile game using C++ and Unity for STEM·E Youth Career Development Program.
                         </p>
                         <div class="project-metrics">
                             <div class="metric">
-                                <i class="fas fa-play"></i>
-                                <span>50k+ plays</span>
+                                <i class="fas fa-cubes"></i>
+                                <span>3D Modeling</span>
                             </div>
                             <div class="metric">
-                                <i class="fas fa-heart"></i>
-                                <span>4.8 rating</span>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-
-                <!-- Project 6 -->
-                <article class="project-card" data-category="web" data-aos="fade-up" data-aos-delay="500">
-                    <div class="project-image">
-                        <div class="project-placeholder">
-                            <i class="fas fa-shield-alt"></i>
-                        </div>
-                        <div class="project-overlay">
-                            <div class="project-links">
-                                <a href="#" class="project-link" title="Live Demo">
-                                    <i class="fas fa-external-link-alt"></i>
-                                </a>
-                                <a href="#" class="project-link" title="View Code">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-tags">
-                            <span class="tag">Security</span>
-                            <span class="tag">ML Ops</span>
-                            <span class="tag">Cloud</span>
-                        </div>
-                        <h3 class="project-title">AI-Powered Threat Detection</h3>
-                        <p class="project-description">
-                            Enterprise security platform using anomaly detection and behavioral analysis to identify cyber threats in real-time with 99.9% accuracy.
-                        </p>
-                        <div class="project-metrics">
-                            <div class="metric">
-                                <i class="fas fa-shield-alt"></i>
-                                <span>99.9% accuracy</span>
-                            </div>
-                            <div class="metric">
-                                <i class="fas fa-clock"></i>
-                                <span>&lt;100ms latency</span>
+                                <i class="fas fa-mobile-alt"></i>
+                                <span>Mobile Game</span>
                             </div>
                         </div>
                     </div>
@@ -471,8 +416,28 @@
 
             <div class="skills-content">
                 <div class="skills-categories">
-                    <!-- AI/ML -->
+                    <!-- Programming Languages -->
                     <div class="skill-category" data-aos="fade-up">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <h3>Programming Languages</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag"><i class="skill-icon">🐍</i>Python</span>
+                            <span class="skill-tag"><i class="skill-icon">☕</i>Java</span>
+                            <span class="skill-tag"><i class="skill-icon">📜</i>JavaScript</span>
+                            <span class="skill-tag"><i class="skill-icon">⚙️</i>C++</span>
+                            <span class="skill-tag"><i class="skill-icon">🔧</i>C</span>
+                            <span class="skill-tag"><i class="skill-icon">📊</i>R</span>
+                            <span class="skill-tag"><i class="skill-icon">🗃️</i>SQL</span>
+                            <span class="skill-tag"><i class="skill-icon">🌐</i>HTML/CSS</span>
+                        </div>
+                    </div>
+
+                    <!-- AI/ML -->
+                    <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
                         <div class="category-header">
                             <div class="category-icon">
                                 <i class="fas fa-brain"></i>
@@ -482,75 +447,46 @@
                         <div class="skill-tags">
                             <span class="skill-tag"><i class="skill-icon">🔥</i>PyTorch</span>
                             <span class="skill-tag"><i class="skill-icon">🧠</i>TensorFlow</span>
-                            <span class="skill-tag"><i class="skill-icon">🤗</i>Hugging Face</span>
                             <span class="skill-tag"><i class="skill-icon">📊</i>scikit-learn</span>
-                            <span class="skill-tag"><i class="skill-icon">🔢</i>NumPy</span>
-                            <span class="skill-tag"><i class="skill-icon">🐼</i>Pandas</span>
-                            <span class="skill-tag"><i class="skill-icon">👁️</i>OpenCV</span>
-                            <span class="skill-tag"><i class="skill-icon">⚡</i>JAX</span>
-                            <span class="skill-tag"><i class="skill-icon">🎯</i>MLflow</span>
-                            <span class="skill-tag"><i class="skill-icon">📈</i>Weights & Biases</span>
+                            <span class="skill-tag"><i class="skill-icon">📈</i>SHAP</span>
+                            <span class="skill-tag"><i class="skill-icon">👁️</i>Computer Vision</span>
+                            <span class="skill-tag"><i class="skill-icon">🎮</i>Reinforcement Learning</span>
                         </div>
                     </div>
 
-                    <!-- Languages -->
-                    <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
-                        <div class="category-header">
-                            <div class="category-icon">
-                                <i class="fas fa-code"></i>
-                            </div>
-                            <h3>Programming Languages</h3>
-                        </div>
-                        <div class="skill-tags">
-                            <span class="skill-tag"><i class="skill-icon">🐍</i>Python</span>
-                            <span class="skill-tag"><i class="skill-icon">📜</i>JavaScript</span>
-                            <span class="skill-tag"><i class="skill-icon">💎</i>TypeScript</span>
-                            <span class="skill-tag"><i class="skill-icon">☕</i>Java</span>
-                            <span class="skill-tag"><i class="skill-icon">⚙️</i>C++</span>
-                            <span class="skill-tag"><i class="skill-icon">🦀</i>Rust</span>
-                            <span class="skill-tag"><i class="skill-icon">🐹</i>Go</span>
-                            <span class="skill-tag"><i class="skill-icon">📊</i>SQL</span>
-                        </div>
-                    </div>
-
-                    <!-- Web & Cloud -->
+                    <!-- Web & Tools -->
                     <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
                         <div class="category-header">
                             <div class="category-icon">
-                                <i class="fas fa-cloud"></i>
+                                <i class="fas fa-laptop-code"></i>
                             </div>
-                            <h3>Web & Cloud</h3>
+                            <h3>Web Development & Tools</h3>
                         </div>
                         <div class="skill-tags">
                             <span class="skill-tag"><i class="skill-icon">⚛️</i>React</span>
-                            <span class="skill-tag"><i class="skill-icon">🔺</i>Next.js</span>
-                            <span class="skill-tag"><i class="skill-icon">🟢</i>Node.js</span>
-                            <span class="skill-tag"><i class="skill-icon">🚀</i>FastAPI</span>
-                            <span class="skill-tag"><i class="skill-icon">☁️</i>AWS</span>
-                            <span class="skill-tag"><i class="skill-icon">🔷</i>GCP</span>
-                            <span class="skill-tag"><i class="skill-icon">🐳</i>Docker</span>
-                            <span class="skill-tag"><i class="skill-icon">☸️</i>Kubernetes</span>
-                            <span class="skill-tag"><i class="skill-icon">🔧</i>Terraform</span>
+                            <span class="skill-tag"><i class="skill-icon">🥾</i>Bootstrap</span>
+                            <span class="skill-tag"><i class="skill-icon">💲</i>jQuery</span>
+                            <span class="skill-tag"><i class="skill-icon">🍃</i>Spring Boot</span>
+                            <span class="skill-tag"><i class="skill-icon">🧪</i>JUnit</span>
+                            <span class="skill-tag"><i class="skill-icon">📋</i>JIRA</span>
                         </div>
                     </div>
 
-                    <!-- Tools & Methods -->
+                    <!-- Creative & Other Tools -->
                     <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
                         <div class="category-header">
                             <div class="category-icon">
                                 <i class="fas fa-tools"></i>
                             </div>
-                            <h3>Tools & Methods</h3>
+                            <h3>Creative & Dev Tools</h3>
                         </div>
                         <div class="skill-tags">
-                            <span class="skill-tag"><i class="skill-icon">📝</i>Git</span>
-                            <span class="skill-tag"><i class="skill-icon">🔄</i>CI/CD</span>
-                            <span class="skill-tag"><i class="skill-icon">🏗️</i>System Design</span>
-                            <span class="skill-tag"><i class="skill-icon">🧪</i>A/B Testing</span>
-                            <span class="skill-tag"><i class="skill-icon">📊</i>Data Pipelines</span>
-                            <span class="skill-tag"><i class="skill-icon">🔍</i>RAG</span>
-                            <span class="skill-tag"><i class="skill-icon">⚡</i>LLM Fine-tuning</span>
-                            <span class="skill-tag"><i class="skill-icon">🎯</i>Prompt Engineering</span>
+                            <span class="skill-tag"><i class="skill-icon">🎮</i>Unity</span>
+                            <span class="skill-tag"><i class="skill-icon">🎨</i>Blender</span>
+                            <span class="skill-tag"><i class="skill-icon">📝</i>Git/GitHub</span>
+                            <span class="skill-tag"><i class="skill-icon">💻</i>VS Code</span>
+                            <span class="skill-tag"><i class="skill-icon">📊</i>RStudio</span>
+                            <span class="skill-tag"><i class="skill-icon">🌙</i>Eclipse</span>
                         </div>
                     </div>
                 </div>
@@ -562,25 +498,7 @@
                         <div class="competency-bars">
                             <div class="competency">
                                 <div class="competency-header">
-                                    <span>Machine Learning</span>
-                                    <span>95%</span>
-                                </div>
-                                <div class="competency-bar">
-                                    <div class="competency-fill" data-width="95"></div>
-                                </div>
-                            </div>
-                            <div class="competency">
-                                <div class="competency-header">
-                                    <span>Deep Learning</span>
-                                    <span>92%</span>
-                                </div>
-                                <div class="competency-bar">
-                                    <div class="competency-fill" data-width="92"></div>
-                                </div>
-                            </div>
-                            <div class="competency">
-                                <div class="competency-header">
-                                    <span>NLP & LLMs</span>
+                                    <span>Python & Java</span>
                                     <span>90%</span>
                                 </div>
                                 <div class="competency-bar">
@@ -589,20 +507,38 @@
                             </div>
                             <div class="competency">
                                 <div class="competency-header">
-                                    <span>Computer Vision</span>
-                                    <span>88%</span>
-                                </div>
-                                <div class="competency-bar">
-                                    <div class="competency-fill" data-width="88"></div>
-                                </div>
-                            </div>
-                            <div class="competency">
-                                <div class="competency-header">
-                                    <span>MLOps & Deployment</span>
+                                    <span>Web Development</span>
                                     <span>85%</span>
                                 </div>
                                 <div class="competency-bar">
                                     <div class="competency-fill" data-width="85"></div>
+                                </div>
+                            </div>
+                            <div class="competency">
+                                <div class="competency-header">
+                                    <span>Machine Learning</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="competency-bar">
+                                    <div class="competency-fill" data-width="80"></div>
+                                </div>
+                            </div>
+                            <div class="competency">
+                                <div class="competency-header">
+                                    <span>Data Structures</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="competency-bar">
+                                    <div class="competency-fill" data-width="85"></div>
+                                </div>
+                            </div>
+                            <div class="competency">
+                                <div class="competency-header">
+                                    <span>Game Development</span>
+                                    <span>75%</span>
+                                </div>
+                                <div class="competency-bar">
+                                    <div class="competency-fill" data-width="75"></div>
                                 </div>
                             </div>
                         </div>
@@ -632,24 +568,24 @@
                                 <i class="fas fa-building"></i>
                             </div>
                             <div class="timeline-info">
-                                <h3>Senior ML Engineer</h3>
-                                <span class="company">Tech Company Name</span>
-                                <span class="period"><i class="fas fa-calendar-alt"></i> 2022 - Present</span>
+                                <h3>USPB Merchant Services Credit Intern</h3>
+                                <span class="company">Citibank</span>
+                                <span class="period"><i class="fas fa-calendar-alt"></i> June 2025 - August 2025</span>
                             </div>
                         </div>
                         <p class="timeline-description">
-                            Leading the development of large-scale ML systems serving millions of users. Architected and deployed transformer-based models that improved recommendation accuracy by 40%.
+                            Developed data analytics solutions and JIRA dashboards for enhanced governance and compliance monitoring across co-branded cards.
                         </p>
                         <ul class="timeline-highlights">
-                            <li>Designed and implemented real-time ML inference pipeline handling 1M+ requests/day</li>
-                            <li>Led a team of 5 engineers in developing next-gen NLP features</li>
-                            <li>Reduced model training costs by 60% through infrastructure optimization</li>
+                            <li>Developed executive-level presentations for senior managers on data analytics and modeling</li>
+                            <li>Designed customized, reproducible JIRA dashboards for compliance monitoring</li>
+                            <li>Engineered smart JIRA filters using JQL, reducing manual overhead by 20%</li>
                         </ul>
                         <div class="timeline-tags">
-                            <span>PyTorch</span>
-                            <span>Kubernetes</span>
-                            <span>AWS</span>
-                            <span>Team Lead</span>
+                            <span>JIRA</span>
+                            <span>JQL</span>
+                            <span>Data Analytics</span>
+                            <span>Compliance</span>
                         </div>
                     </div>
                 </div>
@@ -662,27 +598,27 @@
                     <div class="timeline-content">
                         <div class="timeline-header">
                             <div class="company-logo">
-                                <i class="fas fa-robot"></i>
+                                <i class="fas fa-code"></i>
                             </div>
                             <div class="timeline-info">
-                                <h3>Machine Learning Engineer</h3>
-                                <span class="company">AI Startup Name</span>
-                                <span class="period"><i class="fas fa-calendar-alt"></i> 2020 - 2022</span>
+                                <h3>Software Engineering Intern</h3>
+                                <span class="company">Citibank - Unified Lending</span>
+                                <span class="period"><i class="fas fa-calendar-alt"></i> June 2024 - July 2024</span>
                             </div>
                         </div>
                         <p class="timeline-description">
-                            Core member of the ML team building computer vision solutions for autonomous systems. Developed novel object detection algorithms achieving state-of-the-art performance.
+                            Collaborated with scrum teams and senior managers to support production lending systems and improve Citi's website functionality.
                         </p>
                         <ul class="timeline-highlights">
-                            <li>Developed custom YOLO variant achieving 98.5% mAP on internal benchmarks</li>
-                            <li>Built end-to-end data pipeline processing 10TB+ of video data daily</li>
-                            <li>Published 2 papers at top-tier conferences (CVPR, ICCV)</li>
+                            <li>Engineered JUnit tests on Spring Boot for Citi's flex pay accounts</li>
+                            <li>Mapped end-to-end flow of Flex Loan Pay options on Citi's website</li>
+                            <li>Designed and delivered technical presentation to 100+ interns, engineers, and Citi alumni</li>
                         </ul>
                         <div class="timeline-tags">
-                            <span>TensorFlow</span>
-                            <span>Computer Vision</span>
-                            <span>Edge AI</span>
-                            <span>Research</span>
+                            <span>Spring Boot</span>
+                            <span>JUnit</span>
+                            <span>Java</span>
+                            <span>Agile</span>
                         </div>
                     </div>
                 </div>
@@ -690,32 +626,65 @@
                 <!-- Experience 3 -->
                 <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
                     <div class="timeline-marker">
-                        <i class="fas fa-graduation-cap"></i>
+                        <i class="fas fa-brain"></i>
                     </div>
                     <div class="timeline-content">
                         <div class="timeline-header">
                             <div class="company-logo">
-                                <i class="fas fa-flask"></i>
+                                <i class="fas fa-robot"></i>
                             </div>
                             <div class="timeline-info">
-                                <h3>Research Assistant</h3>
-                                <span class="company">Stanford AI Lab</span>
-                                <span class="period"><i class="fas fa-calendar-alt"></i> 2018 - 2020</span>
+                                <h3>ML - Computer Vision & RL Engineer</h3>
+                                <span class="company">Longhorn Neurotech</span>
+                                <span class="period"><i class="fas fa-calendar-alt"></i> October 2025 - Present</span>
                             </div>
                         </div>
                         <p class="timeline-description">
-                            Conducted research on reinforcement learning and natural language understanding. Contributed to projects that pushed the boundaries of AI capabilities.
+                            Building ML-driven brain-computer interface (BCI) assistive technology for shared-control wheelchair mobility systems.
                         </p>
                         <ul class="timeline-highlights">
-                            <li>Co-authored 3 publications in NeurIPS and ICML</li>
-                            <li>Developed novel RL algorithms for multi-agent coordination</li>
-                            <li>Mentored undergraduate students in ML research</li>
+                            <li>Developing computer vision and reinforcement learning models for BCI systems</li>
+                            <li>Implementing object detection and autonomous navigation features</li>
+                            <li>Supporting shared-control wheelchair mobility for assistive technology</li>
                         </ul>
                         <div class="timeline-tags">
-                            <span>Research</span>
-                            <span>RL</span>
-                            <span>NLP</span>
-                            <span>Publications</span>
+                            <span>PyTorch</span>
+                            <span>Computer Vision</span>
+                            <span>Reinforcement Learning</span>
+                            <span>BCI</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience 4 -->
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="timeline-marker">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div class="company-logo">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                            <div class="timeline-info">
+                                <h3>Tech Chair</h3>
+                                <span class="company">Raas Rodeo</span>
+                                <span class="period"><i class="fas fa-calendar-alt"></i> June 2025 - Present</span>
+                            </div>
+                        </div>
+                        <p class="timeline-description">
+                            Leading digital strategy and web development for the organization, building their first-ever website and driving social media engagement.
+                        </p>
+                        <ul class="timeline-highlights">
+                            <li>Developed organization's first website using React with external API integrations</li>
+                            <li>Directed content creation and video production across social platforms</li>
+                            <li>Boosted engagement by 40% and Instagram reach by 25%</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span>React</span>
+                            <span>VS Code</span>
+                            <span>API Integration</span>
+                            <span>Leadership</span>
                         </div>
                     </div>
                 </div>
@@ -723,50 +692,50 @@
         </div>
     </section>
 
-    <!-- Publications & Awards -->
+    <!-- Awards & Involvement -->
     <section class="achievements section">
         <div class="container">
             <div class="achievements-grid">
-                <!-- Publications -->
-                <div class="achievement-card" data-aos="fade-right">
-                    <div class="achievement-icon">
-                        <i class="fas fa-scroll"></i>
-                    </div>
-                    <h3>Publications</h3>
-                    <ul class="achievement-list">
-                        <li>
-                            <span class="pub-title">"Efficient Transformers for Real-Time NLP"</span>
-                            <span class="pub-venue">NeurIPS 2023</span>
-                        </li>
-                        <li>
-                            <span class="pub-title">"Graph Neural Networks for Protein Folding"</span>
-                            <span class="pub-venue">ICML 2022 - Best Paper</span>
-                        </li>
-                        <li>
-                            <span class="pub-title">"Multi-Agent RL for Complex Environments"</span>
-                            <span class="pub-venue">ICLR 2021</span>
-                        </li>
-                    </ul>
-                </div>
-
                 <!-- Awards -->
-                <div class="achievement-card" data-aos="fade-left">
+                <div class="achievement-card" data-aos="fade-right">
                     <div class="achievement-icon">
                         <i class="fas fa-trophy"></i>
                     </div>
                     <h3>Awards & Recognition</h3>
                     <ul class="achievement-list">
                         <li>
-                            <span class="award-title">Google PhD Fellowship</span>
-                            <span class="award-year">2019</span>
+                            <span class="award-title">NCWIT Aspirations in Computing Award</span>
+                            <span class="award-year">2024 - North Texas Winner</span>
                         </li>
                         <li>
-                            <span class="award-title">Kaggle Competition Master</span>
-                            <span class="award-year">Top 0.1%</span>
+                            <span class="award-title">DFW Alliance iLEADinSTEAM Honorary Prize</span>
+                            <span class="award-year">2023</span>
                         </li>
                         <li>
-                            <span class="award-title">Stanford Excellence in AI Award</span>
-                            <span class="award-year">2020</span>
+                            <span class="award-title">Featured in School Newspaper</span>
+                            <span class="award-year">2023 - STEM Endeavors</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Certifications & Involvement -->
+                <div class="achievement-card" data-aos="fade-left">
+                    <div class="achievement-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Certifications & Involvement</h3>
+                    <ul class="achievement-list">
+                        <li>
+                            <span class="pub-title">Microsoft Java Programming Certification</span>
+                            <span class="pub-venue">2020</span>
+                        </li>
+                        <li>
+                            <span class="pub-title">Girls Who Code - Web Development</span>
+                            <span class="pub-venue">3 Certificates Earned</span>
+                        </li>
+                        <li>
+                            <span class="pub-title">Girls Who Code Advocate</span>
+                            <span class="pub-venue">2021 - Present</span>
                         </li>
                     </ul>
                 </div>

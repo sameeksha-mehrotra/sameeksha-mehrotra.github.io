@@ -5,19 +5,19 @@
 
 /* --- CSS Custom Properties --- */
 :root {
-    /* Colors - Dark Theme */
-    --bg-primary: #0a0a0f;
-    --bg-secondary: #12121a;
-    --bg-tertiary: #1a1a25;
-    --bg-card: #16161f;
-    --bg-card-hover: #1e1e2a;
+    /* Colors - Whimsical Dark Theme */
+    --bg-primary: #1a1520;
+    --bg-secondary: #211a27;
+    --bg-tertiary: #2a2231;
+    --bg-card: #251d2c;
+    --bg-card-hover: #2f2638;
 
-    /* Accent Colors */
-    --accent-primary: #6366f1;
-    --accent-secondary: #8b5cf6;
-    --accent-tertiary: #ec4899;
-    --accent-gradient: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #ec4899 100%);
-    --accent-glow: rgba(99, 102, 241, 0.4);
+    /* Accent Colors - Baby Pink & Whimsical */
+    --accent-primary: #f9a8d4;
+    --accent-secondary: #c4b5fd;
+    --accent-tertiary: #fcd34d;
+    --accent-gradient: linear-gradient(135deg, #f9a8d4 0%, #c4b5fd 50%, #a5f3fc 100%);
+    --accent-glow: rgba(249, 168, 212, 0.4);
 
     /* Text Colors */
     --text-primary: #f8fafc;
@@ -411,10 +411,10 @@ ul {
     align-items: center;
     gap: 10px;
     padding: 10px 20px;
-    background: rgba(16, 185, 129, 0.1);
-    border: 1px solid rgba(16, 185, 129, 0.2);
+    background: rgba(165, 243, 252, 0.1);
+    border: 1px solid rgba(165, 243, 252, 0.2);
     border-radius: var(--radius-full);
-    color: #10b981;
+    color: #a5f3fc;
     font-size: 0.875rem;
     font-weight: 500;
     margin-bottom: 30px;
@@ -423,7 +423,7 @@ ul {
 .badge-dot {
     width: 8px;
     height: 8px;
-    background: #10b981;
+    background: #a5f3fc;
     border-radius: 50%;
     animation: pulse 2s infinite;
 }

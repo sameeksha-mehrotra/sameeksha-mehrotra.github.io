@@ -341,7 +341,7 @@ function initContactForm() {
 
         // Show success state
         submitBtn.innerHTML = '<i class="fas fa-check"></i> Message Sent!';
-        submitBtn.style.background = 'linear-gradient(135deg, #10b981 0%, #059669 100%)';
+        submitBtn.style.background = 'linear-gradient(135deg, #f9a8d4 0%, #c4b5fd 100%)';
 
         // Reset form
         form.reset();
@@ -417,7 +417,7 @@ document.addEventListener('keydown', (e) => {
 
 function activateEasterEgg() {
     // Fun confetti effect
-    const colors = ['#6366f1', '#8b5cf6', '#ec4899', '#10b981'];
+    const colors = ['#f9a8d4', '#c4b5fd', '#a5f3fc', '#fcd34d'];
 
     for (let i = 0; i < 100; i++) {
         const confetti = document.createElement('div');

@@ -1325,6 +1325,28 @@ ul {
     padding: 32px;
 }
 
+.email-cta {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.email-cta i {
+    font-size: 4rem;
+    color: var(--accent-primary);
+    margin-bottom: 24px;
+}
+
+.email-cta h3 {
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+}
+
+.email-cta p {
+    color: var(--text-secondary);
+    margin-bottom: 32px;
+    line-height: 1.7;
+}
+
 .form-group {
     margin-bottom: 24px;
     position: relative;

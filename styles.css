@@ -1435,10 +1435,14 @@ ul {
 .footer-links a {
     color: var(--text-secondary);
     font-weight: 500;
+    padding: 10px 18px;
+    border-radius: var(--radius-md);
+    transition: all var(--transition-fast);
 }
 
 .footer-links a:hover {
     color: var(--text-primary);
+    background: var(--bg-tertiary);
 }
 
 .footer-social {

@@ -264,13 +264,27 @@ ul {
     gap: 4px;
 }
 
+.logo-bracket {
+    font-family: var(--font-mono);
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: var(--text-muted);
+}
+
 .logo-text {
-    font-size: 1.5rem;
-    font-weight: 800;
+    font-size: 1rem;
+    font-weight: 700;
     background: var(--accent-gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+}
+
+.logo-cursor {
+    font-family: var(--font-mono);
+    font-size: 1.25rem;
+    color: var(--accent-primary);
+    animation: blink 1s infinite;
 }
 
 .logo-dot {
@@ -1419,8 +1433,15 @@ ul {
 }
 
 .footer-brand .logo-text {
-    font-size: 2rem;
-    margin-bottom: 8px;
+    font-size: 1.25rem;
+}
+
+.footer-brand .logo-bracket {
+    font-size: 1.5rem;
+}
+
+.footer-brand .logo-cursor {
+    font-size: 1.5rem;
 }
 
 .footer-brand p {

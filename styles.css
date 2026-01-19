@@ -1347,6 +1347,10 @@ ul {
     line-height: 1.7;
 }
 
+.email-cta .btn i {
+    font-size: 0.85rem;
+}
+
 .form-group {
     margin-bottom: 24px;
     position: relative;

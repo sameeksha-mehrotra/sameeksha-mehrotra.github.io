@@ -124,11 +124,11 @@ function initTypingEffect() {
     if (!typingElement) return;
 
     const phrases = [
-        'AI/ML Engineer',
-        'Deep Learning Researcher',
-        'Full Stack Developer',
-        'Open Source Contributor',
-        'Problem Solver'
+        'Tech Program Manager',
+        'AI/ML Enthusiast',
+        'Data Analytics Leader',
+        'Tech Consultant',
+        'Cross-functional Builder'
     ];
 
     let phraseIndex = 0;
